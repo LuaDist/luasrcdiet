@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "luasrcdiet"
+version = "0.11.2"
+
+desc = "LuaSrcDiet - Compresses Lua source code by removing unnecessary characters."
+author = "Kein-Hong Man"
+license = "MIT"
+url = "http://luasrcdiet.luaforge.net/"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1",
+}
