@@ -6,6 +6,7 @@
 project ( luasrcdiet NONE )
 cmake_minimum_required ( VERSION 2.8 )
 include ( cmake/dist.cmake )
+include ( lua )
 
 install_lua_module ( llex llex.lua )
 install_lua_module ( lparser lparser.lua )
