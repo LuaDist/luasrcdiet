@@ -1,0 +1,66 @@
+type = "x86"
+arch = "Windows"
+author = "Kein-Hong Man"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "LuaSrcDiet - Compresses Lua source code by removing unnecessary characters."
+version = "0.11.2"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib\lua\llex.lua]],
+[[lib\lua\lparser.lua]],
+[[lib\lua\optlex.lua]],
+[[lib\lua\optparser.lua]],
+[[lib\lua\plugin\example.lua]],
+[[lib\lua\plugin\sloc.lua]],
+[[lib\lua\plugin\html.lua]],
+[[bin\LuaSrcDiet]],
+}
+,
+Example = {
+[[share\luasrcdiet\example\\dump-lexer_llex.dat]],
+[[share\luasrcdiet\example\\dump-parser_llex.dat]],
+[[share\luasrcdiet\example\\html_sample.html]],
+[[share\luasrcdiet\example\\llex.lua]],
+[[share\luasrcdiet\example\\llex_basic.lua]],
+[[share\luasrcdiet\example\\llex_default.lua]],
+[[share\luasrcdiet\example\\llex_emptylines.lua]],
+[[share\luasrcdiet\example\\llex_locals.lua]],
+[[share\luasrcdiet\example\\llex_maximum.lua]],
+[[share\luasrcdiet\example\\llex_whitespace.lua]],
+[[share\luasrcdiet\example\\lparser.lua]],
+[[share\luasrcdiet\example\\LuaSrcDiet.lua]],
+[[share\luasrcdiet\example\\Makefile]],
+[[share\luasrcdiet\example\\numbers_on_diet.lua]],
+[[share\luasrcdiet\example\\numbers_original.lua]],
+[[share\luasrcdiet\example\\optlex.lua]],
+[[share\luasrcdiet\example\\optparser.lua]],
+[[share\luasrcdiet\example\\statistics.txt]],
+[[share\luasrcdiet\example\\strings_on_diet.lua]],
+[[share\luasrcdiet\example\\strings_original.lua]],
+}
+,
+Data = {
+[[share\luasrcdiet\README]],
+[[share\luasrcdiet\technotes.txt]],
+[[share\luasrcdiet\COPYRIGHT]],
+[[share\luasrcdiet\Changelog]],
+}
+,
+Test = {
+[[share\luasrcdiet\test\\LuaSrcDiet_fixed.lua]],
+[[share\luasrcdiet\test\\LuaSrcDiet_fixed_.lua]],
+[[share\luasrcdiet\test\\test_benchmark1.lua]],
+[[share\luasrcdiet\test\\test_llex.lua]],
+[[share\luasrcdiet\test\\test_optlex.lua]],
+[[share\luasrcdiet\test\\test_optparser.lua]],
+}
+,
+}
+
+license = "MIT"
+name = "luasrcdiet"
+url = "http://luasrcdiet.luaforge.net/"
